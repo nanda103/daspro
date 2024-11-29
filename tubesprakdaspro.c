@@ -1,9 +1,18 @@
+/**********************************************************
+*   KELOMPOK 2 TUGAS BESAR PRAKTIKUM DASASR PEMOGRAMAN      
+*   1. Winanda Sinurat
+*   2. Afif
+*   3. Darren
+*   4. Evan Markus
+*   5. Arif Wicaksono
+***********************************************************/
+
 #include <stdio.h>
 
 int inp;    // variabel untuk menyimpan data penguna yang bertipe integer
 int next_id = 1; // Variabel untuk menyimpan ID otomatis
 
-struct file {   // struktur untuk menyimpan 
+struct file {   
     int id, nim;
     char nama[100], citacita[100];
 };
